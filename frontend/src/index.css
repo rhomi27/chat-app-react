@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden !important;
+    background: url("./7011.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+* {
+    scrollbar-width: none; /* menyembunyikan semua scrollbar */
+}
+
+/* Untuk browser yang mendukung WebKit (seperti Chrome dan Safari) */
+*::-webkit-scrollbar {
+    display: none;
+}
